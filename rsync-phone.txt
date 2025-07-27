@@ -1,0 +1,8 @@
+https://askubuntu.com/questions/1339104/what-is-the-android-phone-mtp-mount-point-in-kubuntu-20-04-if-not-run-user-10
+mounted on $XDG_RUNTIME_DIR/gvfs
+
+while true; do clear; date; df -h; ps -ef | grep rsync; cat /proc/mdstat; tail -10 ~/rsync.log; sleep 10; done
+
+nohup rsync -av "/run/user/1000/gvfs/mtp:host=vivo_I2212_10BD1406B100017/Internal storage/DCIM/Camera/" /mnt/md0/phone-media/pavan/20250727 > ~/rsync.log &
+
+nohup rsync -av "/run/user/1000/gvfs/mtp:host=vivo_I2009_9638812329000CZ/Internal storage/DCIM/Camera" /mnt/md0/phone-media/sejuti/20250727 > ~/rsync.log &

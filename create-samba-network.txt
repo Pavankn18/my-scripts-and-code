@@ -1,0 +1,5 @@
+https://ubuntu.com/tutorials/install-and-configure-samba#4-setting-up-user-accounts-and-connecting-to-share
+https://unix.stackexchange.com/questions/207885/samba-does-not-show-symlinks
+
+https://askubuntu.com/questions/208013/how-can-i-set-up-samba-shares-to-only-be-accessed-by-certain-users
+https://www.hostinger.com/in/tutorials/how-to-create-symbolic-links-in-linux?utm_campaign=Generic-Tutorials-DSA|NT:Se|LO:IN-t5&utm_medium=ppc&gad_source=1&gad_campaignid=19539466256&gclid=EAIaIQobChMI_-Wdy_zQjgMVaT2DAx2VtxzsEAAYASAAEgKrQPD_BwE

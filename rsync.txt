@@ -1,0 +1,29 @@
+rsync -av "/media/pavan/My Passport" /mnt/md0 | tee copy-passport.log
+
+nohup rsync -av "/media/pavan/My Passport/Shreeyan Birthday" "/mnt/md0/My Passport" > copy-passport.log &
+nohup rsync -av "/media/pavan/My Passport/Sejan_Naming_Ceremony" "/mnt/md0/My Passport" > copy-passport.log &
+nohup rsync -av "/media/pavan/My Passport/20250320-lenovo-general-storage" "/mnt/md0/My Passport" > copy-passport.log &
+nohup rsync -av "/media/pavan/My Passport/20250320-Lenovo-Windows-Volume" "/mnt/md0/My Passport" > copy-passport.log &
+nohup rsync -av "/media/pavan/My Passport/20250320-lenovo-ubuntu-volumne" "/mnt/md0/My Passport" > copy-passport.log &
+nohup rsync -av "/media/pavan/My Passport/Sejuti USB" "/mnt/md0/My Passport" > copy-passport.log &
+nohup rsync -av "/media/pavan/My Passport/20250320 - Asus Backup-Linux" "/mnt/md0/My Passport" > copy-passport.log &
+nohup rsync -av "/media/pavan/My Passport/20250320 - Asus Backup-windows" "/mnt/md0/My Passport" > copy-passport.log &
+
+while true; do clear; date; df -h; ps -ef | grep rsync; cat /proc/mdstat; tail -10 copy-passport.log; sleep 10; done
+
+drwxr-xr-x 8 pavan pavan   4096 Apr 20 19:57 '$RECYCLE.BIN'
+drwxr-xr-x 3 pavan pavan   4096 Apr  1 00:05 '20250320 - Asus Backup-Linux'
+drwxr-xr-x 4 pavan pavan   4096 Mar 31 10:12 '20250320 - Asus Backup-windows'
+drwx------ 2 pavan pavan   4096 Jul 23 11:46  20250320-lenovo-general-storage
+drwx------ 2 pavan pavan   4096 Jul 23 11:46  20250320-lenovo-ubuntu-volumne
+drwx------ 2 pavan pavan   4096 Jul 23 11:46  20250320-Lenovo-Windows-Volume
+-rw-rw-r-- 1 pavan pavan    168 Jul 25 22:43  copy-passport.log
+drwx------ 2 pavan pavan   4096 Jul 23 11:46  found.000
+-rwxr-xr-x 1 pavan pavan 549227 Apr 22  2022 'Install Western Digital Software for Mac.dmg'
+-rwxr-xr-x 1 pavan pavan 671824 Jul  9  2021 'Install Western Digital Software for Windows.exe'
+-rwxr-xr-x 1 pavan pavan     96 Apr 19 02:42  rsync_copy_command.sh
+drwx------ 2 pavan pavan   4096 Jul 23 11:46  Sejan_Naming_Ceremony
+drwx------ 2 pavan pavan   4096 Jul 23 11:46 'Sejuti USB'
+drwxr-xr-x 4 pavan pavan   4096 Apr  1 18:52 'Shreeyan Birthday'
+drwx------ 2 pavan pavan   4096 Jul 23 11:46 'System Volume Information'
+
