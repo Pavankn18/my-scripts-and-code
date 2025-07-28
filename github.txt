@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token
+
+git@github.com:Pavankn18/my-scripts-and-code.git
+https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token
+
+git remote set-url origin https://Pavankn18:<PAT>@github.com/Pavankn18/my-scripts-and-code.git
