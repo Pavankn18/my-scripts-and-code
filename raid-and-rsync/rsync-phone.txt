@@ -6,3 +6,7 @@ while true; do clear; date; df -h; ps -ef | grep rsync; cat /proc/mdstat; tail -
 nohup rsync -av "/run/user/1000/gvfs/mtp:host=vivo_I2212_10BD1406B100017/Internal storage/DCIM/Camera/" /mnt/md0/phone-media/pavan/20250727 > ~/rsync.log &
 
 nohup rsync -av "/run/user/1000/gvfs/mtp:host=vivo_I2009_9638812329000CZ/Internal storage/DCIM/Camera" /mnt/md0/phone-media/sejuti/20250727 > ~/rsync.log &
+
+nohup rsync -av "/run/user/1000/gvfs/mtp:host=realme_RMX3868_FECIWS5XUGS8ZL4L/Internal shared storage/DCIM/Camera/" /mnt/md0/phone-media/Mom/20250727 > ~/rsync.log &
+
+nohup rsync -av "/run/user/1000/gvfs/mtp:host=Xiaomi_Redmi_12_5G_daa07c302d41/Internal shared storage/DCIM/Camera" /mnt/md0/phone-media/avva/20250727 > ~/rsync.log &
