@@ -1,0 +1,9 @@
+https://askubuntu.com/questions/307688/how-to-create-iso-image-from-dvd
+
+mount | grep -v snaps
+/dev/sr0 on /media/pavan/PAVANKUMAR type iso9660 (ro,nosuid,nodev,relatime,nojoliet,check=s,map=n,blocksize=2048,uid=1000,gid=1000,dmode=500,fmode=400,iocharset=utf8,uhelper=udisks2)
+
+dd if=/dev/sr0 of=spinemri.iso status=progress
+
+
+sudo snap connect jimbodicomviewer:removable-media core:removable-media
