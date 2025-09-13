@@ -4,3 +4,24 @@ git@github.com:Pavankn18/my-scripts-and-code.git
 https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token
 
 git remote set-url origin https://Pavankn18:<PAT>@github.com/Pavankn18/my-scripts-and-code.git
+
+if token is regerenated, it can be updated in file:
+.git/config
+
+pavan@Cortana-Agni:~/my-scripts-and-code/.git$ cat config
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://Pavankn18:<token_here>@github.com/Pavankn18/my-scripts-and-code.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	
+-----------------------------------------------------
+remote:      (?) Learn how to resolve a blocked push
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+
